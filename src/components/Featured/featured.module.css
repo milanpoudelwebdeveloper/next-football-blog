@@ -47,3 +47,30 @@
   border-radius: 5px;
   width: max-content;
 }
+
+@media screen and (max-width: 1280px) {
+  .title {
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .title {
+    font-size: 60px;
+  }
+  .imgContainer {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 42px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .title {
+    font-size: 32px;
+  }
+}
